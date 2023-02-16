@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(206, 195, 165);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(49, 50, 61);
+}
+
+.container{
+  width: 60%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(49, 50, 61);
+  font-style: normal;
+} 
+span {
+  font-weight: bold;
+}
+
+

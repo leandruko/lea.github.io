@@ -1,0 +1,25 @@
+
+#modo{
+    width: 5px;
+    font-size: 35px;
+    margin-left: 70%;
+    cursor: pointer;
+    margin-top: 0.2%;
+}
+.dark{
+    background: rgb(49, 50, 61);
+}
+
+.dark #modo{
+    color: rgb(206, 195, 165);
+}
+
+.dark h3{
+    color:rgb(206, 195, 165);
+}
+
+.container {
+    font-weight: bold;
+    color: rgb(206, 195, 165);
+    font-style: normal;
+  }
