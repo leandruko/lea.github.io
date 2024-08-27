@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(206, 195, 165);
+    background-color: rgb(49, 50, 61);
     font-family: 'Roboto Mono', monospace;
-    color: rgb(49, 50, 61);
+    color: rgb(206, 195, 165);
 }
 
 .container{
@@ -11,11 +11,40 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: rgb(49, 50, 61);
+  color: rgb(206, 195, 165);
   font-style: normal;
 } 
 span {
   font-weight: bold;
 }
+
+.navbar {
+  background-color: transparent !important;
+  border-bottom: none;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.7s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#projects {
+  margin-top: 50px; /* Espacio superior para separar del contenido anterior */
+}
+
+#projects h2 {
+  margin-bottom: 30px; /* Espacio entre el título y las cards */
+}
+
+.card {
+  margin-bottom: 20px; /* Espacio entre las cards */
+}
+
+
+
 
 

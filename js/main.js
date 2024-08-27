@@ -21,18 +21,13 @@ const typed = new Typed('.typed', {
 });
 
 
-let modo=document.getElementById("modo");
-let body=document.body;
-
-modo.addEventListener("click", function(){
-    let val=body.classList.toggle("dark")
-    localStorage.setItem("modo",val)
-})
-
-let valor=localStorage.getItem("modo")
-
-if (valor=="true") {
-    body.classList.add("dark")
-} else {
-    body.classList.remove("dark")
-}
+document.querySelectorAll('a.nav-link').forEach(anchor => {
+	anchor.addEventListener('click', function(e) {
+	  e.preventDefault();
+  
+	  document.querySelector(this.getAttribute('href')).scrollIntoView({
+		behavior: 'smooth'
+	  });
+	});
+  });
+  

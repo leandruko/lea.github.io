@@ -15,15 +15,90 @@
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
   </head>
 <body>
-  <div class="modo" id="modo">
-    <i class="fas fa-toggle-on"></i>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   
   <div class="container">
       <h3>
         Mi nombre es <span class="typed"></span>
       </h3>
   </div>
+
+
+<!-- Sección "Sobre mí" -->
+<div id="about" class="container my-5">
+  <h2 class="text-center">Sobre Mí</h2>
+</div>
+
+<div id="projects" class="container my-5">
+  <h2 class="text-center mb-4">Mis Proyectos</h2>
+  <div class="row">
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="ruta-a-tu-imagen-1.jpg" class="card-img-top" alt="Imagen del Proyecto 1">
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 1</h5>
+          <p class="card-text">Descripción breve del Proyecto 1. Explica de qué trata y las tecnologías que usaste.</p>
+          <a href="https://github.com/tu-usuario/proyecto-1" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="ruta-a-tu-imagen-2.jpg" class="card-img-top" alt="Imagen del Proyecto 2">
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 2</h5>
+          <p class="card-text">Descripción breve del Proyecto 2. Explica de qué trata y las tecnologías que usaste.</p>
+          <a href="https://github.com/tu-usuario/proyecto-2" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="ruta-a-tu-imagen-3.jpg" class="card-img-top" alt="Imagen del Proyecto 3">
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 3</h5>
+          <p class="card-text">Descripción breve del Proyecto 3. Explica de qué trata y las tecnologías que usaste.</p>
+          <a href="https://github.com/tu-usuario/proyecto-3" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div id="contact" class="container my-5">
+  <h2>Contacto</h2>
+  <!-- Contenido de contacto -->
+</div>
+  
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
       <script src="./js/main.js"></script>
       <script src="./js/dark.js"></script>
