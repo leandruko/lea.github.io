@@ -34,15 +34,40 @@ html {
 
 #projects {
   margin-top: 50px; /* Espacio superior para separar del contenido anterior */
+  margin-bottom: 50px;
 }
 
 #projects h2 {
   margin-bottom: 30px; /* Espacio entre el título y las cards */
+  font-size: 2rem;
 }
 
 .card {
   margin-bottom: 20px; /* Espacio entre las cards */
+  min-height: 400px; /* Altura mínima para las cards */
+  text-align: center;
 }
+
+.card img {
+  height: 200px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  font-size: 1rem;
+}
+
 
 
 
