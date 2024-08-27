@@ -27,6 +27,11 @@ span {
   transition: color 0.7s ease;
 }
 
+body {
+  padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,9 +48,19 @@ html {
 }
 
 .card {
-  margin-bottom: 20px; /* Espacio entre las cards */
-  min-height: 400px; /* Altura mínima para las cards */
+  margin-bottom: 20px;
+  min-height: 400px;
+  background-color:rgb(206, 195, 165) ;
   text-align: center;
+  transition: transform 0.3s ease; /* Transición suave al levantar la card */
+}
+.btn{
+  background-color: rgb(49, 50, 61) ;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Levanta la card 10px hacia arriba */
+  box-shadow: 0 8px 16px rgba(2, 2, 2, 0.5); /* Añade un poco más de sombra para el efecto */
 }
 
 .card img {
@@ -61,6 +76,7 @@ html {
 .card-text {
   font-size: 1rem;
   margin-bottom: 20px;
+  color:rgb(49, 50, 61) ;
 }
 
 .btn {
