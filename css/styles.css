@@ -77,13 +77,46 @@ html {
   margin-bottom: 20px;
 }
 
+
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  border: none;
+  background-color: #2c2c6c;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
 .btn-primary {
-  background-color: #131322;
-  border-color: #18182c;
-  color: #fff;
+  background-color: #5a67d8;
+  border: none;
+  color: white;
 }
 
 .btn-primary:hover {
-  background-color: #1f1f36;
-  border-color: #2d2d4e;
+  background-color: #434190;
+}
+
+h2.text-center {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1344px) {
+  .card-body {
+      padding: 15px;
+  }
+
+  h2.text-center {
+      font-size: 1.5rem;
+  }
 }
