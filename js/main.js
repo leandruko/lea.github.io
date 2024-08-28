@@ -20,14 +20,4 @@ const typed = new Typed('.typed', {
 	contentType: 'null', // 'html' o 'null' para texto sin formato
 });
 
-
-document.querySelectorAll('a.nav-link').forEach(anchor => {
-	anchor.addEventListener('click', function(e) {
-	  e.preventDefault();
-  
-	  document.querySelector(this.getAttribute('href')).scrollIntoView({
-		behavior: 'smooth'
-	  });
-	});
-  });
   

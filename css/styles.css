@@ -17,14 +17,6 @@ span {
   font-weight: bold;
 }
 
-.navbar {
-  background-color: transparent !important;
-  border-bottom: none;
-}
-
-.navbar-nav .nav-link {
-  transition: color 0.7s ease;
-}
 
 body {
   padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
@@ -77,8 +69,6 @@ html {
   margin-bottom: 20px;
 }
 
-
-
 .card {
   transition: transform 0.3s ease;
   border-radius: 15px;
@@ -109,14 +99,4 @@ html {
 h2.text-center {
   font-size: 2rem;
   margin-bottom: 2rem;
-}
-
-@media (max-width: 1344px) {
-  .card-body {
-      padding: 15px;
-  }
-
-  h2.text-center {
-      font-size: 1.5rem;
-  }
 }
