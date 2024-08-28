@@ -5,19 +5,13 @@ body {
 
 .container{
   width: 80%;
-  height: 10%;
+  height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   color: #fff;
-  font-style: normal;
 } 
-
-
-body {
-  padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
-}
 
 #projects {
   margin-top: 50px; /* Espacio superior para separar del contenido anterior */
@@ -97,6 +91,7 @@ h2.text-center {
 .navbar {
   background-color: transparent !important;
   border-bottom: none;
+  font-size: 20px;
 }
 
 .navbar-nav .nav-link {
@@ -104,7 +99,7 @@ h2.text-center {
 }
 
 .navbar .nav-link:hover {
-  color: #ffc107 !important; /* Cambia este color al que prefieras */
+  color: #ffc107 !important; 
 }
 
 
@@ -116,8 +111,23 @@ h2.text-center {
   z-index: 1030;
 }
 
-body {
-  padding-top: 60px; /* Añade un padding para evitar que el contenido quede oculto debajo del navbar */
+.fa-brands {
+  padding: 5px;
+  color: #fff;
+}
+
+#skills i {
+  color: #007bff; /* Color azul predeterminado */
+  transition: color 0.3s ease;
+}
+
+#skills i:hover {
+  color: #0056b3; /* Color más oscuro al pasar el cursor */
+}
+
+#skills p {
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 
