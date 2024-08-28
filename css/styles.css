@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-  width: 60%;
+  width: 80%;
   height: 10%;
   display: flex;
   align-items: center;
@@ -13,20 +13,11 @@ body {
   color: #fff;
   font-style: normal;
 } 
-span {
-  font-weight: bold;
-}
 
 
 body {
   padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
 }
-
-
-html {
-  scroll-behavior: smooth;
-}
-
 
 #projects {
   margin-top: 50px; /* Espacio superior para separar del contenido anterior */
@@ -100,3 +91,42 @@ h2.text-center {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
+
+/* Navbar Styles */
+.navbar {
+  background-color: transparent !important;
+  border-bottom: none;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.7s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important; /* Cambia este color al que prefieras */
+}
+
+
+.fixed-top {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+body {
+  padding-top: 60px; /* Añade un padding para evitar que el contenido quede oculto debajo del navbar */
+}
+
+
+/* Responsive Cards */
+@media (max-width: 1298px) {
+  .card {
+    margin-bottom: 30px;
+  }
+
+}
+
+

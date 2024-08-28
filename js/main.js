@@ -20,4 +20,4 @@ const typed = new Typed('.typed', {
 	contentType: 'null', // 'html' o 'null' para texto sin formato
 });
 
-  
+
