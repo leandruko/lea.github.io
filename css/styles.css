@@ -139,13 +139,6 @@ h2.text-center {
 
 
 
-/* Responsive Cards */
-@media (max-width: 1298px) {
-  .card {
-    margin-bottom: 30px;
-  }
-}
-
 @media (max-width: 767px) {
   .navbar {
     display: none;
