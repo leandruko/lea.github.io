@@ -111,13 +111,30 @@ h2.text-center {
   transition: transform 0.3s ease;
 }
 
-.col-md-3{
-
-}
 
 .col-md-3:hover{
   transform: translateY(-10px);
   transition: transform 0.3s ease;
+}
+
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.skill-card img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  margin: 0;
+  font-size: 14px;
 }
 
 
@@ -129,10 +146,10 @@ h2.text-center {
   }
 }
 
-/* Responsive Cards */
-@media (min-width: 992px) {
-  .card {
-    margin-bottom: 30px;
+@media (max-width: 767px) {
+  .navbar {
+    display: none;
   }
 }
+
 
