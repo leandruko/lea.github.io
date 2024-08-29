@@ -4,12 +4,6 @@ body {
 }
 
 .container{
-  width: 80%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
   color: #fff;
 } 
 
@@ -22,7 +16,6 @@ body {
   margin-bottom: 30px; /* Espacio entre el título y las cards */
   font-size: 2rem;
 }
-
 
 .card:hover {
   transform: translateY(-10px); /* Levanta la card 10px hacia arriba */
@@ -85,8 +78,6 @@ h2.text-center {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-
-
 /* Navbar Styles */
 .navbar {
   background-color: transparent !important;
@@ -102,7 +93,6 @@ h2.text-center {
   color: #ffc107 !important; 
 }
 
-
 .fixed-top {
   position:absolute;
   top: 0;
@@ -116,19 +106,20 @@ h2.text-center {
   color: #fff;
 }
 
-#skills i {
-  color: #007bff; /* Color azul predeterminado */
-  transition: color 0.3s ease;
+.fa-brands:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
 }
 
-#skills i:hover {
-  color: #0056b3; /* Color más oscuro al pasar el cursor */
+.col-md-3{
+
 }
 
-#skills p {
-  margin-top: 10px;
-  font-weight: bold;
+.col-md-3:hover{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
 }
+
 
 
 /* Responsive Cards */
@@ -136,7 +127,12 @@ h2.text-center {
   .card {
     margin-bottom: 30px;
   }
-
 }
 
+/* Responsive Cards */
+@media (min-width: 992px) {
+  .card {
+    margin-bottom: 30px;
+  }
+}
 
