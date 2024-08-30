@@ -13,7 +13,7 @@ body {
 }
 
 #projects h2 {
-  margin-bottom: 30px; 
+  margin: 20px; 
   font-size: 2rem;
 }
 .custom-card {
@@ -124,6 +124,15 @@ h2.text-center {
   margin: 0;
   font-size: 14px;
 }
+
+/* Footer */
+footer {
+  color: #7a7a7a;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+ 
 
 @media (max-width: 767px) {
   .navbar {

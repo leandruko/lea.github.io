@@ -21,4 +21,15 @@ const typed = new Typed('.typed', {
 });
 
 
+var originalTitle = document.title;
 
+  // Escucha el evento de cambio de visibilidad de la página
+  document.addEventListener("visibilitychange", function() {
+    // Si la página no está visible
+    if (document.hidden) {
+      // Cambia el título de la pestaña a "¡Vuelve!"
+      document.title = "¡Vuelve! 😭😢";
+    } else {
+      document.title = originalTitle;
+    }
+  });
