@@ -51,7 +51,6 @@ body {
   margin-top: auto; 
 }
 
-
 .btn-primary {
   background-color: #5a67d8;
   border: none;
@@ -99,12 +98,10 @@ h2.text-center {
   transition: transform 0.3s ease;
 }
 
-
 .col-md-3:hover{
   transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
-
 
 .skill-card {
   display: flex;
@@ -132,12 +129,3 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
- 
-
-@media (max-width: 767px) {
-  .navbar {
-    display: none;
-  }
-}
-
-
