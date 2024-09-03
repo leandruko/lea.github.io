@@ -2,20 +2,10 @@ body {
     background-color: #18182eef;
     font-family: 'Roboto Mono', monospace;
 }
-
 .container{
   color: #fff;
 } 
 
-#projects {
-  margin-top: 50px; 
-  margin-bottom: 50px;
-}
-
-#projects h2 {
-  margin: 20px; 
-  font-size: 2rem;
-}
 .custom-card {
   background-color: #2c2c54; 
   border-radius: 10px;
@@ -28,7 +18,9 @@ body {
   justify-content: space-between;
   min-height: 250px;
 }
-
+#projects{
+  margin-top: 100px;
+}
 .custom-card:hover {
   transform: translateY(-10px);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
@@ -61,19 +53,16 @@ body {
   background-color: #434190;
 }
 
-h2.text-center {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
 /* Navbar Styles */
 .navbar {
-  background-color: transparent !important;
+  background-color: #26263b !important; 
   border-bottom: none;
   font-size: 20px;
 }
 
 .navbar-nav .nav-link {
   transition: color 0.7s ease;
+  padding: 10px 15px; 
 }
 
 .navbar .nav-link:hover {
@@ -81,13 +70,37 @@ h2.text-center {
 }
 
 .fixed-top {
-  position:absolute;
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1030;
+  z-index: 10;
 }
 
+/* Contenido principal */
+.main-content {
+  margin-top: 100px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center; /
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px; 
+    padding: 10px; 
+  }
+
+  .navbar-collapse {
+    background-color: #26263b; 
+  }
+
+  .main-content {
+    margin-top: 100px; 
+  }
+}
 .fa-brands {
   padding: 5px;
   color: #fff;
